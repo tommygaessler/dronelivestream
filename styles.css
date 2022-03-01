@@ -1,0 +1,59 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#startStream, #stopStream, #rtmpInstructions, #rtmp, #startStreamInstructions, #video-player {
+  display: none;
+}
+
+#video-player {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  display: block;
+  width: 300px;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#getStreamRtmp {
+  background-color: #3185FC;
+}
+
+#startStream {
+  background-color: #FA7921;
+}
+
+#stopStream {
+  background-color: #E84855;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}

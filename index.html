@@ -3,8 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Drone Live Stream</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>Drone Live Stream</h1>
+    <button onClick="getStreamRtmp()" id="getStreamRtmp">Get Stream RTMP</button>
+    <p id="rtmpInstructions">Enter the following code as your DJI App's Livestream RTMP URL, and click Start.</p>
+    <p id="rtmp"></p>
+    <p id="startStreamInstructions">Then click the Start Stream button below.</p>
+    <button onClick="startStream()" id="startStream">Start Stream</button>
+    <video id="video-player" playsinline></video>
+    <button onClick="stopStream()" id="stopStream">Stop Stream</button>
   </body>
+  <script src="https://player.live-video.net/1.7.0/amazon-ivs-player.min.js"></script>
+  <script src="scripts.js"></script>
 </html>
